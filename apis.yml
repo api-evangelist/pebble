@@ -1,9 +1,26 @@
 aid: pebble
 name: Pebble
-description: Pebble is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Pebble is a Silicon Valley electric-vehicle and consumer-hardware company that designs and
+  manufactures the Pebble Flow, an all-electric travel trailer (RV) with an integrated battery, solar,
+  and motor-assist drivetrain. The product line pairs the trailer with the Pebble mobile app for remote
+  control and monitoring, offering features such as autonomous "Magic Hitch" coupling, remote-control
+  positioning, automatic leveling and setup, and up to seven days of off-grid capability. Backed by
+  Lightspeed Venture Partners, Pebble sells direct-to-consumer under the tagline "Where Home Meets the
+  Road." As of this enrichment pass Pebble publishes no public developer API, developer portal, or
+  documented API surface; its only software touchpoint is the consumer-facing Pebble Control Center app.
 url: https://raw.githubusercontent.com/api-evangelist/pebble/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pebblelife.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +29,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Automotive
+- Electric Vehicles
+- Recreational Vehicles
+- Consumer Hardware
+- Mobility
+- Travel
+- IoT
 apis: []
+common:
+- type: DomainSecurity
+  url: security/pebble-domain-security.yml
+- type: Website
+  url: https://pebblelife.com
+- type: Blog
+  url: https://pebblelife.com/insights
+- type: Support
+  url: https://pebblelife.com/faq
+- type: Login
+  url: https://pebblelife.com/customer-portal/login
+- type: TermsOfService
+  url: https://pebblelife.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://pebblelife.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
