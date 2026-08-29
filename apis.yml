@@ -9,6 +9,17 @@ description: Pebble is a Silicon Valley electric-vehicle and consumer-hardware c
   Road." As of this enrichment pass Pebble publishes no public developer API, developer portal, or
   documented API surface; its only software touchpoint is the consumer-facing Pebble Control Center app.
 url: https://raw.githubusercontent.com/api-evangelist/pebble/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
